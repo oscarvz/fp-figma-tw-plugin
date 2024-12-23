@@ -7,15 +7,15 @@
 // full browser environment (See https://www.figma.com/plugin-docs/how-plugins-run).
 
 // This provides the callback to generate the code.
-figma.codegen.on('generate', (event) => {
+figma.codegen.on("generate", (event) => {
   const code = `{
     name: '${event.node.name}'
   }`;
   return [
     {
-      language: 'PLAINTEXT',
+      language: "PLAINTEXT",
       code: code,
-      title: 'Codegen Plugin',
+      title: "Codegen Plugin",
     },
   ];
 });
