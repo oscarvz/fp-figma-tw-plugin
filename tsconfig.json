@@ -4,7 +4,6 @@
     "target": "ESNext",
     "lib": ["ESNext"],
     "strict": true,
-    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"],
     "skipLibCheck": true,
     "noEmit": true
   }
